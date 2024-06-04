@@ -4,59 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#b0c9f1"
+    android:background="#283593"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/mentor_guide_chat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/all_rounded"
-        android:backgroundTint="#009688"
-        android:padding="10dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="15dp"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/baseline_chat_24"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:layout_marginStart="10dp"
-            android:textStyle="bold"
-            android:text="Mentor Guide"/>
 
 
-    </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="">
 
+       <ImageView
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="250dp"
+           android:src="@drawable/iitrou"/>
+   </LinearLayout>
 
-    <TextView
-        android:id="@+id/uptac_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:textColor="#1A1A1A"
-        android:textStyle="bold"
-        android:text="@string/app_name"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/uptac_text"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:textColor="#2A2A2A"
-        android:text="Predict your college by rank"/>
 
 
 
@@ -116,7 +80,7 @@
                             android:text="Jee Main/Adv"
 
                             android:layout_marginStart="20dp"
-                            android:textColor="@android:color/white"
+                            android:textColor="@color/white"
                             android:textSize="18sp"/>
 
 
@@ -269,6 +233,7 @@
 
                 </LinearLayout>
 
+                <!--
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -315,6 +280,7 @@
 
 
                 </LinearLayout>
+                -->
 
             </LinearLayout>
 
@@ -336,9 +302,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 app:cardCornerRadius="10dp">
-
+<!--
                 <RelativeLayout
-                    android:id="@+id/about_us"
+                    android:id="@+id/mentor_guide_chat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -346,15 +312,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
-                        android:background="#FDF0DD"
-                        android:drawableStart="@drawable/baseline_person_24"
+                        android:background="@color/white"
+                        android:drawableStart="@drawable/baseline_chat_24"
                         android:gravity="center"
                         android:padding="8dp"
-                        android:text="About Us"
-                        android:textColor="#6A1B9A" />
+                        android:text="Mentor Guide"
+                        android:textColor="@color/purple_700" />
 
                 </RelativeLayout>
-
+   -->
             </androidx.cardview.widget.CardView>
 
 

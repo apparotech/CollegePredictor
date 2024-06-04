@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CollegePredictor</string>
+    <string name="app_name">PredictU</string>
 
     <string-array name="quota">
         <item>Select</item>

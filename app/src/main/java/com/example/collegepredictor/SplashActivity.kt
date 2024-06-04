@@ -20,10 +20,10 @@ class SplashActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-        textview = findViewById<TextView>(R.id.splash_activity_text)
-        textview.visibility = View.VISIBLE
-        val anmationsFadeIn = AnimationUtils.loadAnimation(this,R.anim.fade_in)
-        textview.startAnimation(anmationsFadeIn)
+        //textview = findViewById<TextView>(R.id.splash_activity_text)
+      //  textview.visibility = View.VISIBLE
+       // val anmationsFadeIn = AnimationUtils.loadAnimation(this,R.anim.fade_in)
+        //textview.startAnimation(anmationsFadeIn)
 
         sendUserToLoginActivity()
     }

@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var aktu_cuet: LinearLayout
     lateinit var hbtu_btech:LinearLayout
     lateinit var about_us: RelativeLayout
-    lateinit var mentor_guide_chat:LinearLayout
+   // lateinit var mentor_guide_chat:RelativeLayout
     lateinit var jee_main_btech:LinearLayout
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,15 +20,12 @@ class MainActivity : AppCompatActivity() {
         aktu_btech = findViewById(R.id.aktu_btech)
         aktu_cuet= findViewById(R.id.aktu_cuet)
         hbtu_btech= findViewById(R.id.hbtu_btech)
-        about_us = findViewById(R.id.about_us)
-        mentor_guide_chat = findViewById(R.id.mentor_guide_chat)
+
+       // mentor_guide_chat = findViewById(R.id.mentor_guide_chat)
         jee_main_btech = findViewById(R.id.jee_main_btech)
 
 
-        mentor_guide_chat.setOnClickListener {
-            val intent = Intent(this,ChatActivity::class.java)
-            startActivity(intent)
-        }
+
 
         aktu_btech.setOnClickListener {
             val intent = Intent(this, SelectRankActivity::class.java)
