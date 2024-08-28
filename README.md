@@ -1,1 +1,1 @@
-Tech use : Android Studio, Kotline , Spring boot, xml
+Tech use : Android Studio, Kotlin , Spring boot, xml
